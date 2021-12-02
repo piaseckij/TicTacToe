@@ -2,7 +2,7 @@
 
 namespace KolkoKrzyzyk
 {
-    internal class tableGeneration
+    class tableGeneration
     {
         enum Pola
         {
@@ -48,9 +48,19 @@ namespace KolkoKrzyzyk
         }
     }
 
+ 
+
     class application
     {
-        
+        private tableGeneration tab;
+
+        void start()
+        {
+            tab.generateTable();
+            tab.showTable();
+
+        }
+
         
 
     }
