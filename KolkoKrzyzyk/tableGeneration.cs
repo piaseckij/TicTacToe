@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KolkoKrzyzyk
 {
-    class tableGeneration
+    internal class tableGeneration
     {
         enum Pola
         {
@@ -15,9 +11,11 @@ namespace KolkoKrzyzyk
             cross
         }
 
+        Pola[,] table = new Pola[3, 3];
+
         public void generateTable()
         {
-            Pola[,] table = new Pola [3,3];
+
 
             for (int i = 0; i < 3; i++)
             {
@@ -27,19 +25,34 @@ namespace KolkoKrzyzyk
 
                 }
             }
+        }
 
+        public void showTable()
+        {
             for (int i = 0; i < 3; i++)
             {
-                for(int j = 0;j < 3; j++)
+                for (int j = 0; j < 2; j++)
                 {
                     if (table[i, j] == Pola.empty)
                     {
-                        Console.Write(" "+"|");
+                        Console.Write("  " + "|");
                     }
-                    
+
                 }
-                Console.WriteLine();
+
+                if (i < 2)
+                {
+                    Console.WriteLine("\n---------");
+                }
             }
         }
     }
+
+    class application
+    {
+        
+        
+
+    }
+
 }

@@ -13,3 +13,4 @@ C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyz
 C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\ref\KolkoKrzyzyk.dll
 C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.pdb
 C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.genruntimeconfig.cache
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.csproj.AssemblyReference.cache

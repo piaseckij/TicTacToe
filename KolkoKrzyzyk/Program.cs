@@ -12,6 +12,8 @@ namespace KolkoKrzyzyk
         {
             tableGeneration tab = new();
             tab.generateTable();
+            tab.showTable();
+
         }
     }
 }
