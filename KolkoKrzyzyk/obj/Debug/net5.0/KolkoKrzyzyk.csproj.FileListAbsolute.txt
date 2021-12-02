@@ -1,0 +1,15 @@
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\KolkoKrzyzyk.exe
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\KolkoKrzyzyk.deps.json
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\KolkoKrzyzyk.runtimeconfig.json
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\KolkoKrzyzyk.runtimeconfig.dev.json
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\KolkoKrzyzyk.dll
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\ref\KolkoKrzyzyk.dll
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\bin\Debug\net5.0\KolkoKrzyzyk.pdb
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.AssemblyInfoInputs.cache
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.AssemblyInfo.cs
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.csproj.CoreCompileInputs.cache
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.dll
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\ref\KolkoKrzyzyk.dll
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.pdb
+C:\Users\Kuba\source\repos\KolkoKrzyzyk\KolkoKrzyzyk\obj\Debug\net5.0\KolkoKrzyzyk.genruntimeconfig.cache
