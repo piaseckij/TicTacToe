@@ -10,9 +10,9 @@ namespace KolkoKrzyzyk
     {
         static void Main(string[] args)
         {
-            tableGeneration tab = new();
-            tab.generateTable();
-            tab.showTable();
+        
+            
+            
 
         }
     }
