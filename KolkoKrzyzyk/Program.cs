@@ -10,9 +10,8 @@ namespace KolkoKrzyzyk
     {
         static void Main(string[] args)
         {
-        
-            
-            
+            application app = new();
+            app.start(); 
 
         }
     }
