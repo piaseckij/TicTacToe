@@ -26,16 +26,16 @@ namespace KolkoKrzyzyk
                 tab.putSign(Pola.circle);
                 Console.Clear();
                 tab.showTable();
-                if (tab.checkWin() !=0)
+                if (tab.checkWin() !=null)
                     break;
                 tab.putSign(Pola.cross);
                 Console.Clear();
 
-            } while (tab.checkWin()==0);
+            } while (tab.checkWin()==null);
 
             if (tab.checkWin() == Pola.empty)
             {
-                Console.WriteLine("Remis");
+                Console.WriteLine("\nRemis");
             }
             else
             {

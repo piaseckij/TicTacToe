@@ -86,7 +86,7 @@ namespace KolkoKrzyzyk
 
         }
 
-        public Pola checkWin()
+        public Pola? checkWin()
         {
 
             #region sprawdzenie wygranej poziom
@@ -144,7 +144,7 @@ namespace KolkoKrzyzyk
                 return Pola.empty;
             }
 
-            return 0;
+            return null;
            
             #endregion
 
