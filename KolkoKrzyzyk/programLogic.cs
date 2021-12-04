@@ -26,13 +26,21 @@ namespace KolkoKrzyzyk
                 tab.putSign(Pola.circle);
                 Console.Clear();
                 tab.showTable();
-                if (tab.checkWin() == 1 || tab.checkWin() == -1)
+                if (tab.checkWin() !=0)
                     break;
                 tab.putSign(Pola.cross);
                 Console.Clear();
 
-            } while (tab.checkWin() != 1&&tab.checkWin()!=-1);
-            Console.WriteLine(tab.checkWin());
+            } while (tab.checkWin()==0);
+
+            if (tab.checkWin() == Pola.empty)
+            {
+                Console.WriteLine("Remis");
+            }
+            else
+            {
+                Console.WriteLine($"Wygrał gracz {tab.checkWin()}");
+            }
 
         }
 

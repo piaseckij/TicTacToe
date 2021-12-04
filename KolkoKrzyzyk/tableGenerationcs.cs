@@ -86,100 +86,52 @@ namespace KolkoKrzyzyk
 
         }
 
-
-        //trash 
-
-        //public void putCircle()
-        //{
-        //    dataHandling data = new dataHandling();
-
-        //    int x, y;
-
-        //    (x, y) = data.receivePrepareData(Pola.circle);
-
-        //    if ((x, y) != (3, 3))
-        //    {
-        //        table[x, y] = Pola.circle;
-        //    }
-        //}
-
-        //void checkVertical()
-        //{
-        //    int circleSum = 0;
-        //    int crossSum = 0;
-
-        //    tableGeneration tab = new tableGeneration();
-
-        //    for (int i = 0; i < 3; i++)
-        //    {
-
-
-        //        if (tab.table[i, 0] == Pola.cross)
-        //        {
-        //            crossSum += 1;
-        //        }
-
-        //        else if (tab.table[i, 0] == Pola.circle)
-        //        {
-        //            circleSum += 2;
-        //        }
-
-        //        if (circleSum == 6)
-        //        {
-        //            Console.WriteLine("Wygrały koła");
-        //        }
-        //        if (crossSum == 3)
-        //        {
-        //            Console.WriteLine("Wygrały krzyże");
-        //        }
-
-        //        circleSum = 0;
-        //        crossSum = 0;
-        //    }
-        //}
-        public int checkWin()
+        public Pola checkWin()
         {
 
             #region sprawdzenie wygranej poziom
             if (table[0] == table[1] && table[1] == table[2] && table[0] != Pola.empty)
             {
-                return 1;
+                return table[0];
             }
 
             else if (table[3] == table[4] && table[4] == table[5] && table[3] != Pola.empty)
             {
-                return 1;
+                return table[3];
             }
 
             else if (table[6] == table[7] && table[7] == table[8] && table[6] != Pola.empty)
             {
-                return 1;
+                
+                return table[6];
             }
             #endregion
 
             #region sprawdzenie wygranej pion
             else if (table[0] == table[3] && table[3] == table[6] && table[0] != Pola.empty)
             {
-                return 1;
+                
+                return table[0];
             }
             else if (table[1] == table[4] && table[4] == table[7] && table[1] != Pola.empty)
             {
-                return 1;
+                
+                return table[1];
             }
             else if (table[2] == table[5] && table[5] == table[8] && table[2] != Pola.empty)
             {
-                return 1;
+                return table[2];
             }
             #endregion
 
             #region sprawdzanie wygranej skos
             else if (table[0] == table[4] && table[4] == table[8]&&table[0]!=Pola.empty)
             {
-                return 1;
+                return table[0];
             }
             else if (table[2] == table[4] && table[4] == table[6]&&table[2]!=Pola.empty)
             {
-                return 1;
+                return table[2];
             }
             #endregion
 
@@ -188,11 +140,12 @@ namespace KolkoKrzyzyk
                 && table[4] != Pola.empty && table[5] != Pola.empty && table[6] != Pola.empty && table[7] != Pola.empty
                 && table[8] != Pola.empty)
             {
-                return -1;
+                
+                return Pola.empty;
             }
 
-            else
-                return 0;
+            return 0;
+           
             #endregion
 
         }
