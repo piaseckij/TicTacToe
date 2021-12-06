@@ -16,22 +16,29 @@ namespace KolkoKrzyzyk
             tab = new tableGeneration();
             data = new dataHandling();
 
+            Boolean success;
 
             tab.generateTable();
 
             do
             {
-                
+
                 tab.showTable();
-                tab.putSign(Pola.circle);
+                do
+                {
+                    success=tab.putSign(Pola.circle);
+                } while (!success);
+                
                 Console.Clear();
                 tab.showTable();
-                if (tab.checkWin() !=null)
+                if (tab.checkWin() != null)
                     break;
-                tab.putSign(Pola.cross);
+                do {
+                    success=tab.putSign(Pola.cross);
+                }while(!success);
                 Console.Clear();
 
-            } while (tab.checkWin()==null);
+            } while (tab.checkWin() == null);
 
             if (tab.checkWin() == Pola.empty)
             {

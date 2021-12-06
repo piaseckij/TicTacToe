@@ -67,7 +67,7 @@ namespace KolkoKrzyzyk
             }
         }
 
-        public void putSign(Pola pola)
+        public Boolean putSign(Pola pola)
         {
             dataHandling data = new dataHandling();
 
@@ -78,11 +78,15 @@ namespace KolkoKrzyzyk
             if (pola == Pola.cross && x != 200 && table[x] == Pola.empty)
             {
                 table[x] = Pola.cross;
+                return true;
             }
             else if (pola == Pola.circle && x != 200 && table[x] == Pola.empty)
             {
                 table[x] = Pola.circle;
+                return true;
             }
+
+            return false;
 
         }
 
@@ -102,7 +106,7 @@ namespace KolkoKrzyzyk
 
             else if (table[6] == table[7] && table[7] == table[8] && table[6] != Pola.empty)
             {
-                
+
                 return table[6];
             }
             #endregion
@@ -110,12 +114,12 @@ namespace KolkoKrzyzyk
             #region sprawdzenie wygranej pion
             else if (table[0] == table[3] && table[3] == table[6] && table[0] != Pola.empty)
             {
-                
+
                 return table[0];
             }
             else if (table[1] == table[4] && table[4] == table[7] && table[1] != Pola.empty)
             {
-                
+
                 return table[1];
             }
             else if (table[2] == table[5] && table[5] == table[8] && table[2] != Pola.empty)
@@ -125,11 +129,11 @@ namespace KolkoKrzyzyk
             #endregion
 
             #region sprawdzanie wygranej skos
-            else if (table[0] == table[4] && table[4] == table[8]&&table[0]!=Pola.empty)
+            else if (table[0] == table[4] && table[4] == table[8] && table[0] != Pola.empty)
             {
                 return table[0];
             }
-            else if (table[2] == table[4] && table[4] == table[6]&&table[2]!=Pola.empty)
+            else if (table[2] == table[4] && table[4] == table[6] && table[2] != Pola.empty)
             {
                 return table[2];
             }
@@ -140,12 +144,12 @@ namespace KolkoKrzyzyk
                 && table[4] != Pola.empty && table[5] != Pola.empty && table[6] != Pola.empty && table[7] != Pola.empty
                 && table[8] != Pola.empty)
             {
-                
+
                 return Pola.empty;
             }
 
             return null;
-           
+
             #endregion
 
         }
