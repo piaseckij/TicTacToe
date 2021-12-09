@@ -12,8 +12,6 @@ namespace KolkoKrzyzyk
     class tableGeneration
     {
 
-        dataHandling data;
-
 
         Pola[] table = new Pola[9];
 

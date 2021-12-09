@@ -4,8 +4,6 @@ namespace KolkoKrzyzyk
 {
     class dataHandling
     {
-        string input;
-
 
         public int receivePrepareData(Pola pola)
         {
